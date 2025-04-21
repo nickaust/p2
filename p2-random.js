@@ -16,3 +16,11 @@ function getRandomInteger(min, max) {
   }
   
   console.log(result);
+
+
+// Returns a single random lowercase letter
+function getRandomLetter(){
+  return alphabet[Math.floor(Math.random() * alphabet.length)];
+}
+
+console.log(getRandomLetter());
