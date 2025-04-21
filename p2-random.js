@@ -34,3 +34,8 @@ function getRandomString(minLength = 10, maxLength = 20) {
   }
   return result;
 }
+
+// Return a string in ascending order alphabetically
+const getSortedString = string => string.split('').sort().join('');
+
+console.log(getSortedString(getRandomString()));
