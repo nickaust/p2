@@ -1,2 +1,2 @@
-*.txt
-*.bak
+# Git ignored filed and folders specifications
+ignored.txt
